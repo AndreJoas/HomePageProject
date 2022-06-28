@@ -1,0 +1,124 @@
+body{
+    Background:#E5E5E5
+}
+
+.home{
+    position: relative;
+    top: 50px;
+    left: 320px;
+    width: 900px;
+    height: 540px;
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(157, 68, 68, 0.2);
+}
+.imagem{
+    position: absolute;
+    width: 380px;
+    height: 100%;
+    border-radius: 20px 0px 0px 0px;
+    background: url(img.png);
+}
+
+.square{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 810px;
+    top: 442px;
+    background: url(square.png);
+
+}
+.menu{
+    list-style: none;
+    float: left;
+    width: 700px;
+    height: 20px;
+    align-items: flex-end;
+    left: 610px;
+    top: 20px;
+    position: absolute;
+    color: skyblue;
+    font-size: 16px;
+
+}
+
+.menu li{
+    position: relative;
+    float: left;
+}
+.menu li a {
+    color: rgb(10, 8, 8);
+    text-decoration: none;
+    padding: 3px 13px;
+}
+.menu li a:hover{
+    background: rgb(221, 186, 153);
+    color: rgb(46, 39, 39);
+    border-radius: 4px;
+    
+    text-shadow: 0px 0px 5px rgb(209, 30, 30);
+}
+.text{
+    position: relative;
+    left:420px;
+    width: 330px;
+    height: 70px;
+    top: 145px;
+    font-size: 36px;
+    Line-height: 47px;
+    font-family: 'Poppins';
+}
+.paragrafo{
+    position: relative;
+    top:148px;
+    width: 480px;
+    left: 420px;
+    font-size: 11px;
+    Line-height: 15px;
+    font-family: 'Poppins';
+
+}
+
+.botao1{
+    position: relative;
+    left: 420px;
+    top: 210px;
+ 
+}
+.b1{
+    background: black;
+    color:aliceblue;
+    border-radius: 5px;
+    width: 250px; 
+    height: 40px;  
+    font-family: 'Poppins';
+}
+.botao1 .b1:hover{
+    background: rgb(221, 186, 153);
+    color: rgb(46, 39, 39);
+    border-radius: 4px;
+    
+    text-shadow: 0px 0px 5px rgb(218, 181, 181);
+
+}
+.botao2{
+    position: relative;
+    left: 430px;
+    top: 210px;
+
+ }
+ .b2{
+    background: rgba(241, 235, 235, 0.2);
+    color:rgba(62, 53, 53, 0.966);
+    border-radius: 5px;
+    width: 130px; 
+    height: 41px;  
+    font-family: 'Poppins';
+}
+.botao2 .b2:hover{
+    background: rgb(46 ,39, 39);
+    color: rgb(221, 186, 153);
+    border-radius: 4px;
+    
+    text-shadow: 0px 0px 5px rgb(209, 30, 30);
+}
